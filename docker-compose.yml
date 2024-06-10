@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  webscraper_v1:
+    image: webscraper_v1
+    networks:
+      - scraper-network
+    deploy:
+      replicas: 4
+    ports:
+      - "2200-2203:22"
+
+networks:
+  scraper-network:
+    external: true

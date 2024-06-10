@@ -1,0 +1,19 @@
+obtain proxy info
+prep proxy
+load user agents
+set target URL
+prep chrome webdriver
+select random user agent
+select random cookies
+select random accept
+select random referer
+set header
+establish URL connection
+Log Page Source
+Set profile pic pattern (REGEX)
+Set post pattern (REGEX)
+Look Up Profile Pic
+Look Up Posts
+Prep Post URLS
+Load Post URLS
+Get Post IMAGE/URL
